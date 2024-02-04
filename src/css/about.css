@@ -54,9 +54,57 @@
 
 
 
+.rtj{
+    font-family: dancing script;
+    color: #c19556;
+}
+
+.rtj1{
+ margin-left: -70px;
+ height: 700px;
+}
+
+.rtj2{
+    width:790px;
+    height: 700px;
+   margin-left: -15px;
+   
+}
+
+.num{
+    color: #c19556;
+    font-size: 110px;
+    font-weight: 650;
+    font-family: Open Sans;
+    margin-top: -40px;
+}
+
+.rtj-title{
+    color: white;
+    font-size: 33px;
+    font-weight: 650;
+}
+
+.rtj-para{
+    color: white;
+    
+
+}
+
+
+
 @media screen and (max-width: 768px) {
     .head-about{
         font-size: 30px;
+    }
+
+    .rtj1 {
+       height: 302px;
+    }
+
+    .rtj2{
+        width: 400px;
+        height: 302px;
     }
     
 }

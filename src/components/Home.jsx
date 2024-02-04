@@ -1,9 +1,16 @@
 import React from 'react'
+
+// css
 import '../css/home.css'
 import '../css/about.css'
+
+// images
 import floral from '../media/floral.png'
 import sign from '../media/dark-sign.png'
-
+import RTJ1 from '../media/collection.jpg'
+import RTJ2 from '../media/foodie.jpg'
+import RTJ3 from '../media/mock-beef.jpg'
+import RTJ4 from '../media/tiramisu.jpg'
 const Home = () => {
   return (
     <div>
@@ -65,8 +72,64 @@ const Home = () => {
              <div className='d-flex justify-content-center align-items-center pt-5 pb-5'>
                 <img src={sign} alt="" className='sign'/>
                 </div> 
+
+             <div className="row">
+                <div className="col-md-7">
+                    <img src={RTJ1} alt="" className='rtj1'/>    
+                </div>
+                <div className="col-md-5 bg-dark">
+                    <div className="container-fluid p-5">
+                    <h4 className='rtj px-5 pt-5 mt-4'>ReasonsTo Join</h4>
+                    <p className='num px-5 '>01</p>
+                    <p className='px-5 rtj-title'>FRESH FOOD FOR EVERYONE, EVERY DAY</p>
+                    <p className='rtj-para px-5'>At the next halt Hooja the Sly One managed to find enough slack chain to permit him to worm himself back quite close to Dian. We were all standing, and as he edged near the girl.</p>
+                    </div>
+                </div>
+                </div>  
+
+             <div className="row">
+             <div className="col-md-5 bg-dark">
+                    <div className="container-fluid p-5" style={{textAlign: 'right'}}>
+                    <h4 className='rtj px-5 pt-5 mt-4'>ReasonsTo Join</h4>
+                    <p className='num px-5 '>02</p>
+                    <p className='px-5 rtj-title'>FOOD PREPARATION WITH LOVE AND CARE</p>
+                    <p className='rtj-para px-5'>At the next halt Hooja the Sly One managed to find enough slack chain to permit him to worm himself back quite close to Dian. We were all standing, and as he edged near the girl.</p>
+                    </div>
+                </div>
+                <div className="col-md-7">
+                    <img src={RTJ2} alt="" className='rtj2'/>    
+                </div>
+                </div>  
                 
-                              
+
+                <div className="row">
+                <div className="col-md-7">
+                    <img src={RTJ3} alt="" className='rtj1'/>    
+                </div>
+                <div className="col-md-5 bg-dark">
+                    <div className="container-fluid p-5">
+                    <h4 className='rtj px-5 pt-5 mt-4'>ReasonsTo Join</h4>
+                    <p className='num px-5 '>03</p>
+                    <p className='px-5 rtj-title'>COOKING WITH SCIENCE FOR PERFECT RESULTS</p>
+                    <p className='rtj-para px-5'>At the next halt Hooja the Sly One managed to find enough slack chain to permit him to worm himself back quite close to Dian. We were all standing, and as he edged near the girl.</p>
+                    </div>
+                </div>
+                </div>  
+
+                <div className="row">
+             <div className="col-md-5 bg-dark">
+                    <div className="container-fluid p-5" style={{textAlign: 'right'}}>
+                    <h4 className='rtj px-5 pt-5 mt-4'>ReasonsTo Join</h4>
+                    <p className='num px-5 '>04</p>
+                    <p className='px-5 rtj-title'>FINISH WITH ALL THE FLAVOR AND STYLE</p>
+                    <p className='rtj-para px-5'>At the next halt Hooja the Sly One managed to find enough slack chain to permit him to worm himself back quite close to Dian. We were all standing, and as he edged near the girl.</p>
+                    </div>
+                </div>
+                <div className="col-md-7">
+                    <img src={RTJ4} alt="" className='rtj2'/>    
+                </div>
+                </div>  
+
 
            
         </div>
