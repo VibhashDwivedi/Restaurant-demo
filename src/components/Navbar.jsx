@@ -2,6 +2,8 @@ import React from 'react';
 
 import fineHeader from '../media/fine-footer.png';
 import { Link, NavLink } from 'react-router-dom';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+
 
 const Navbar = () => {
   return (
@@ -9,7 +11,7 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-lg nav-back pt-0" >
   <div className="container-fluid" >
     <Link className="navbar-brand" to="">
-      <img src={fineHeader} alt="" className='fine-footer mx-5 px-1 pt-2' />
+      <img src={fineHeader} alt="" className='fine-footer mx-lg-5 px-1 pt-2' />
     </Link>
     <button
       className="navbar-toggler"
@@ -25,14 +27,14 @@ const Navbar = () => {
     <div className="collapse navbar-collapse " id="navbarSupportedContent">
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0  nav-border ">
         <li className="nav-item p-2 pt-3 nav-border-remove">
-          <NavLink className="nav-link  nav-link-css"  to="#" >
+          <AnchorLink className="nav-link  nav-link-css"  href="#home" >
             HOME
-          </NavLink>
+          </AnchorLink>
         </li>
         <li className="nav-item p-2 pt-3 ">
-          <NavLink className="nav-link nav-link-css"  to="#" >
+          <AnchorLink className="nav-link nav-link-css"  href="#about" >
             ABOUT
-          </NavLink>
+          </AnchorLink>
         </li>
         <li className="nav-item p-2 pt-3 ">
           <NavLink className="nav-link nav-link-css"  to="#" >
