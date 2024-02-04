@@ -8,3 +8,65 @@
   background-position: center;
   height: 100vh;
 }
+
+.navbar{
+  background-color: rgba(0, 0, 0, 0.589);
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+.fine-footer{
+  height: 50px;
+  width: 195px;
+}
+
+.nav-back{
+  background-color: rgba(0, 0, 0, 0.589);
+  
+}
+
+
+.nav-link-css
+{
+  color: white !important;
+  font-size: 17px;
+  font-family: Open Sans;
+  font-weight: 600;
+}
+
+
+
+.nav-border :hover
+{
+  border-top: 3px solid white !important;
+  border-radius: 0px !important;
+  padding-bottom: 0px !important;
+  margin-bottom: 0px !important;
+  color: #C19556 !important;
+}
+  
+  
+  
+
+
+.nav-item :hover
+{
+  border-top: none !important;
+  color: #C19556 !important;
+  
+
+}
+
+.nav-item :active
+{
+  border-top: none !important;
+  color: #C19556 !important;
+  
+
+}
+
+
+
