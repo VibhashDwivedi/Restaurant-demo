@@ -91,7 +91,7 @@ const Home = () => {
                 </div>  
 
              <div className="row">
-             <div className="col-md-5 bg-dark">
+             <div className="col-md-5 bg-dark pb-sm-2">
                     <div className="container-fluid p-lg-5" style={{textAlign: 'right'}}>
                     <h4 className='rtj px-5 pt-5 mt-4'>ReasonsTo Join</h4>
                     <p className='num px-5 '>02</p>
