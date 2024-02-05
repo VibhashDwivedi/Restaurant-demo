@@ -1,11 +1,11 @@
 # The Tasty Lane
-Demo Website for a restaurant
+Demo Website for a restaurant built using React.js
 
 ## Design Reference
 [click here](https://www.pirenko-themes.com/restaurant/#1443522770881-ab0e96be-e8b3)
 
 ## Live Demo
-[Click here]()
+[Click here](https://the-tasty-lane-vibhashdwivedi.vercel.app/)
 
 
 
