@@ -1,8 +1,10 @@
 import React from 'react'
 
 // css
+
 import '../css/home.css'
 import '../css/about.css'
+import '../css/menu.css'
 
 // images
 import floral from '../media/floral.png'
@@ -11,6 +13,7 @@ import RTJ1 from '../media/collection.jpg'
 import RTJ2 from '../media/foodie.jpg'
 import RTJ3 from '../media/mock-beef.jpg'
 import RTJ4 from '../media/tiramisu.jpg'
+
 const Home = () => {
   return (
     <div>
@@ -39,7 +42,7 @@ const Home = () => {
         <img src={floral} alt="" className='floral'/>
                 </div >
 
-        <div className="d-flex justify-content-center align-items-center  ">
+        <div className="d-flex justify-content-center align-items-center mt-4 ">
             <div>
                 <div className="d-flex">
                     <p className='dash'>___________</p>
@@ -136,6 +139,41 @@ const Home = () => {
                    
 
 
+
+    </div>
+
+    <div className="about-bg" id='menu'>
+    <div className="container-fluid pt-4"> 
+    <div className="d-flex justify-content-center align-items-center pt-5 ">
+        <img src={floral} alt="" className='floral'/>
+                </div >
+
+        <div className="d-flex justify-content-center align-items-center mt-4 ">
+            <div>
+                <div className="d-flex">
+                    <p className='dash'>___________</p>
+                    <p className='simply-the-best mx-2'>Variety And Flavor</p>
+                    <p className='dash'>___________</p>
+                </div>
+                
+            </div>
+
+            
+            
+            </div> 
+
+            <div className="d-flex justify-content-center align-items-center">
+           <p className="head-about">OUR AWARDED MENU</p>
+                </div> 
+             <div className="container mx-lg-5 px-5 pb-5 d-flex justify-content-center">
+             <p className='mx-5 px-5 text-center text-white'>I care not to perform this part of my task methodically. But shall be content to produce the desired impression.
+From these citations, I take it and dash the conclusion aimed at will naturally follow of itself.</p>   
+
+</div>
+
+   
+
+    </div>
 
     </div>
 

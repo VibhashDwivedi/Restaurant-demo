@@ -37,9 +37,9 @@ const Navbar = () => {
           </AnchorLink>
         </li>
         <li className="nav-item p-2 pt-3 ">
-          <NavLink className="nav-link nav-link-css"  to="#" >
+          <AnchorLink className="nav-link nav-link-css"  href="#menu" >
             MENU
-          </NavLink>
+          </AnchorLink>
         </li>
         <li className="nav-item p-2 pt-3 ">
           <NavLink className="nav-link nav-link-css"  to="#" >

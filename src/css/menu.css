@@ -1,0 +1,23 @@
+.dropdown-style{
+    color: #c19556;
+    font-size: 30px;
+}
+
+.menu-name{
+    color: #c19556;
+    font-size: 40px;
+    font-family: open sans;
+}
+
+.dropdown-menu{
+    background-color: rgba(0, 0, 0, 0.973);
+    padding: 0px;
+    margin: 0px;
+    margin-left: -518px !important; 
+    width: 550px;
+    border: none;
+    border-radius: 0px;
+   
+}
+
+
