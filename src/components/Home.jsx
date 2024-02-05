@@ -6,6 +6,7 @@ import '../css/home.css'
 import '../css/about.css'
 import '../css/menu.css'
 import '../css/chef.css'
+import '../css/contact.css'
 
 // images
 import floral from '../media/floral.png'
@@ -585,6 +586,88 @@ From these citations, I take it and dash the conclusion aimed at will naturally 
 
  <div className='pt-5 mt-5' id='book'>
     <img src={toast} alt="" width={'100%'} height={'700px'} />
+
+<div className="d-flex justify-content-center align-items-center">
+     <div className="contact">
+        <div className="d-flex justify-content-center align-items-center pt-5 ">
+        <img src={floral} alt="" className='floral'/>
+                </div >
+
+        <div className="d-flex justify-content-center align-items-center mt-4 ">
+            <div>
+                <div className="d-flex">
+                    <p className='dash'>___________</p>
+                    <p className='simply-the-best mx-2'>Instant Confirmation</p>
+                    <p className='dash'>___________</p>
+                </div>
+                
+            </div>
+            </div>
+
+         <p className="book-head">MAKE YOUR RESERVATION</p> 
+         <p className='book-text px-5 mx-3'>I care not to perform this part of my task methodically. But shall be content to produce the desired impression.
+From these citations, I take it and dash the conclusion aimed at will naturally follow of itself.</p> 
+
+    <div className="container mt-lg-5">
+    <div className="row ">
+        <div className="col-md-4">
+            <h4 className='date '>DATE</h4>
+            <div className="d-flex justify-content-center align-items-center">
+            <input type="date" className='input-field px-2 p-1' />
+            </div>
+            
+        </div>
+        <div className="col-md-4">
+            <h4 className='date '>HOUR</h4>
+            <div className="d-flex justify-content-center align-items-center">
+            <select  className='input-field px-2 p-1' >
+            <option value="10">10 AM</option>
+            <option value="11">11 AM</option>
+            <option value="12">12 PM</option>
+            <option value="13">1 PM</option>
+            <option value="14">2 PM</option>
+            <option value="15">3 PM</option>
+            <option value="16">4 PM</option>
+            <option value="17">5 PM</option>
+            <option value="18">6 PM</option>
+            <option value="19">7 PM</option>
+            <option value="20">8 PM</option>
+            <option value="21">9 PM</option>
+            <option value="22">10 PM</option>
+            <option value="23">11 PM</option>
+            </select>
+            </div>
+        </div>
+        <div className="col-md-4">
+            <h4 className='date'>GUEST NR</h4>
+            <div className="d-flex justify-content-center align-items-center">
+            <select  className='input-field px-2 p-1' >
+            <option value="1">1 </option>
+            <option value="2">2 </option>
+            <option value="3">3 </option>
+            <option value="4">4 </option>
+            <option value="5">5 </option>
+            <option value="6">6 </option>
+            <option value="7">7 </option>
+            <option value="8">8 </option>
+            <option value="9">9 </option>
+            <option value="10">10 </option>
+            <option value="moere">more..</option>
+            </select>
+            </div>
+        </div>
+     </div>
+
+        <div className="d-flex justify-content-center align-items-center mt-lg-5 mt-3">
+            <button className='book-btn'>BOOK A TABLE</button>
+            </div>
+    </div>
+    
+
+        
+     </div>
+     </div>
+
     </div>         
 
     </div>
