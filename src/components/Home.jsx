@@ -13,6 +13,10 @@ import RTJ1 from '../media/collection.jpg'
 import RTJ2 from '../media/foodie.jpg'
 import RTJ3 from '../media/mock-beef.jpg'
 import RTJ4 from '../media/tiramisu.jpg'
+import menu1 from '../media/rare-beef.jpg'
+import menu2 from '../media/salmon.jpg'
+import menu3 from '../media/berries.jpg'
+import menu4 from '../media/another-beef.jpg'
 
 const Home = () => {
 
@@ -388,7 +392,37 @@ From these citations, I take it and dash the conclusion aimed at will naturally 
            
            
            
-            <div className="col-md-6"></div>
+            <div className="col-md-6 px-3">
+                <div className="row">
+                    <div className="col-md-6" >
+
+                       <div className='outer1'> <img src={menu1} alt="" className='menu-img1'/></div>
+                           
+                            
+                        
+                    </div>
+                    <div className="col-md-6">
+                    <div className='outer2'>
+                        <img src={menu2} alt="" className='menu-img2'/>
+                        </div>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-md-6 ">
+                        <div className="outer1">
+                        <img src={menu3} alt="" className='menu-img1'/>
+                        </div>
+                        
+                    </div>
+                    <div className="col-md-6 ">
+                        <div className="outer2">
+                        <img src={menu4} alt="" className='menu-img2'/>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
          </div>
 
 </div>
