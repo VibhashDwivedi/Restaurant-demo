@@ -52,9 +52,9 @@ const Navbar = () => {
           </AnchorLink>
         </li>
         <li className="nav-item p-2 pt-3 " style={{marginRight: 15}} >
-          <Link className="nav-link nav-link-css"  to="#" >
+          <AnchorLink className="nav-link nav-link-css"  href="#contact" >
             CONTACT US
-          </Link>
+          </AnchorLink>
         </li>
       </ul>
     

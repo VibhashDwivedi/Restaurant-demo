@@ -7,6 +7,7 @@ import '../css/about.css'
 import '../css/menu.css'
 import '../css/chef.css'
 import '../css/contact.css'
+import '../css/contact_us.css'
 
 // images
 import floral from '../media/floral.png'
@@ -668,7 +669,52 @@ From these citations, I take it and dash the conclusion aimed at will naturally 
      </div>
      </div>
 
-    </div>         
+    </div> 
+
+
+
+ <div className="pt-3 mt-5 pb-1 " id='contact'>
+    <p className='contact-us'>The Tasty Lane</p>
+    <p className='addr'>River Street, Blue Building, 1st. floor</p>
+    <p className='addr2'>5690-970 New York City</p>
+    
+    <div className="d-flex justify-content-center align-items-center mt-5 pt-4 mb-1">
+    
+        <p className='num'>+123 785 952 354 .</p>
+        <p className='mail'>hello@ttl.com</p>
+        <p className='num'>. www.thetastylane.com</p>
+        </div>
+
+
+     <div className="d-flex justify-content-center align-items-center">
+     <i class="fa-brands fa-facebook-f socials"></i>
+     <i class="fa-brands fa-google-plus-g socials"></i>
+     <i class="fa-brands fa-instagram socials"></i>
+     <i class="fa-brands fa-youtube socials"></i>
+     <i class="fa-brands fa-vimeo socials"></i>
+        </div> 
+
+        
+
+        <div className="d-flex justify-content-center align-items-center mt-5 pt-5 ">
+            <p className='pt-3 text-light'>© 2024 The Tasty Lane. All rights reserved</p>
+                </div>
+                <div className="d-flex justify-content-center align-items-center ">
+        <hr  className='last-line'/>  
+        </div>        
+
+        <div className="d-flex justify-content-center align-items-center mt-3">
+            <p className='text-info'>Built with <i class="fa-regular fa-heart" style={{color:'red'}}></i> by Vibhash Dwivedi <a href="https://github.com/VibhashDwivedi"><i class="fa-brands fa-github"></i></a></p>
+            </div>
+        
+           
+
+
+    </div> 
+
+    
+
+          
 
     </div>
 
