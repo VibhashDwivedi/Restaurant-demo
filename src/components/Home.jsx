@@ -15,7 +15,80 @@ import RTJ3 from '../media/mock-beef.jpg'
 import RTJ4 from '../media/tiramisu.jpg'
 
 const Home = () => {
+
+
+    const showOrHideDiv1 = () => {
+        var x = document.getElementById("showOrHide1");
+        
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+    const showOrHideDiv2 = () => {
+        var x = document.getElementById("showOrHide2");
+        
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+    const showOrHideDiv3 = () => {
+        var x = document.getElementById("showOrHide3");
+        
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+    const showOrHideDiv4 = () => {
+        var x = document.getElementById("showOrHide4");
+        
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+    const showOrHideDiv5 = () => {
+        var x = document.getElementById("showOrHide5");
+        
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+    const showOrHideDiv6 = () => {
+        var x = document.getElementById("showOrHide6");
+        
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+    const showOrHideDiv7 = () => {
+        var x = document.getElementById("showOrHide7");
+        
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+
+
   return (
+
+
+   
+
+
+
     <div>
     <div className='main' id='home'>
 
@@ -171,6 +244,155 @@ From these citations, I take it and dash the conclusion aimed at will naturally 
 
 </div>
 
+<div className="container">
+<div className="row">
+            <div className="col-md-6 menu">
+                <div className="d-flex " onClick={showOrHideDiv1}>
+                    <p className='menu-name pt-2 '>SNACKS</p>
+                    <p className='dropdown-style ms-auto pt-2' ><i class="fa-solid fa-angle-down" ></i></p>
+                </div>
+                <div id='showOrHide1' className='px-4 pt-2 pb-4' style={{display:'none'}}>
+                <div className="d-flex justify-content-between">
+                    <p className='menu-item'>Chicken Wings</p>
+                    <p className='menu-price'>$15.00</p>
+                    </div>
+                    <div className="d-flex justify-content-between">
+                    <p className='menu-item'>Chicken Wings</p>
+                    <p className='menu-price'>$15.00</p>
+                    </div>
+                    <div className="d-flex justify-content-between">
+                    <p className='menu-item'>Chicken Wings</p>
+                    <p className='menu-price'>$15.00</p>
+                    </div>
+                </div>
+                <hr  className='hr-line'/>
+                <div className="d-flex  " onClick={showOrHideDiv2}>
+                    <p className='menu-name'>SOUP</p>
+                    <p className='dropdown-style ms-auto' ><i class="fa-solid fa-angle-down" ></i></p>
+                </div>
+                <div id='showOrHide2' className='px-4 pt-2 pb-4' style={{display:'none'}}>
+                <div className="d-flex justify-content-between">
+                    <p className='menu-item'>Chicken Wings</p>
+                    <p className='menu-price'>$15.00</p>
+                    </div>
+                    <div className="d-flex justify-content-between">
+                    <p className='menu-item'>Chicken Wings</p>
+                    <p className='menu-price'>$15.00</p>
+                    </div>
+                    <div className="d-flex justify-content-between">
+                    <p className='menu-item'>Chicken Wings</p>
+                    <p className='menu-price'>$15.00</p>
+                    </div>
+                </div>
+                <hr  className='hr-line'/>
+                <div className="d-flex" onClick={showOrHideDiv3}>
+                    <p className='menu-name'>VEGAN</p>
+                    <p className='dropdown-style ms-auto' ><i class="fa-solid fa-angle-down" ></i></p>
+                </div>
+                <div id='showOrHide3' className='px-4 pt-2 pb-4' style={{display:'none'}}>
+                <div className="d-flex justify-content-between">
+                    <p className='menu-item'>Chicken Wings</p>
+                    <p className='menu-price'>$15.00</p>
+                    </div>
+                    <div className="d-flex justify-content-between">
+                    <p className='menu-item'>Chicken Wings</p>
+                    <p className='menu-price'>$15.00</p>
+                    </div>
+                    <div className="d-flex justify-content-between">
+                    <p className='menu-item'>Chicken Wings</p>
+                    <p className='menu-price'>$15.00</p>
+                    </div>
+                </div>
+                <hr  className='hr-line'/>
+                <div className="d-flex" onClick={showOrHideDiv4}>
+                    <p className='menu-name'>FISH</p>
+                    <p className='dropdown-style ms-auto' ><i class="fa-solid fa-angle-down" ></i></p>
+                </div>
+                <div id='showOrHide4' className='px-4 pt-2 pb-4' style={{display:'none'}}>
+                <div className="d-flex justify-content-between">
+                    <p className='menu-item'>Chicken Wings</p>
+                    <p className='menu-price'>$15.00</p>
+                    </div>
+                    <div className="d-flex justify-content-between">
+                    <p className='menu-item'>Chicken Wings</p>
+                    <p className='menu-price'>$15.00</p>
+                    </div>
+                    <div className="d-flex justify-content-between">
+                    <p className='menu-item'>Chicken Wings</p>
+                    <p className='menu-price'>$15.00</p>
+                    </div>
+                </div>
+                <hr  className='hr-line'/>
+                <div className="d-flex" onClick={showOrHideDiv5}>
+                    <p className='menu-name'>MEAT</p>
+                    <p className='dropdown-style ms-auto' ><i class="fa-solid fa-angle-down" ></i></p>
+                </div>
+                <div id='showOrHide5' className='px-4 pt-2 pb-4' style={{display:'none'}}>
+                <div className="d-flex justify-content-between">
+                    <p className='menu-item'>Chicken Wings</p>
+                    <p className='menu-price'>$15.00</p>
+                    </div>
+                    <div className="d-flex justify-content-between">
+                    <p className='menu-item'>Chicken Wings</p>
+                    <p className='menu-price'>$15.00</p>
+                    </div>
+                    <div className="d-flex justify-content-between">
+                    <p className='menu-item'>Chicken Wings</p>
+                    <p className='menu-price'>$15.00</p>
+                    </div>
+                </div>
+                <hr  className='hr-line'/>
+                <div className="d-flex" onClick={showOrHideDiv6}>
+                    <p className='menu-name'>DESSERTS</p>
+                    <p className='dropdown-style ms-auto' ><i class="fa-solid fa-angle-down" ></i></p>
+                </div>
+                <div id='showOrHide6' className='px-4 pt-2 pb-4' style={{display:'none'}}>
+                <div className="d-flex justify-content-between">
+                    <p className='menu-item'>Chicken Wings</p>
+                    <p className='menu-price'>$15.00</p>
+                    </div>
+                    <div className="d-flex justify-content-between">
+                    <p className='menu-item'>Chicken Wings</p>
+                    <p className='menu-price'>$15.00</p>
+                    </div>
+                    <div className="d-flex justify-content-between">
+                    <p className='menu-item'>Chicken Wings</p>
+                    <p className='menu-price'>$15.00</p>
+                    </div>
+                </div>
+                <hr  className='hr-line'/>
+                <div className="d-flex" onClick={showOrHideDiv7}>
+                    <p className='menu-name'>DRINKS</p>
+                    <p className='dropdown-style ms-auto' ><i class="fa-solid fa-angle-down" ></i></p>
+                </div>
+                <div id='showOrHide7' className='px-4 pt-2 pb-4' style={{display:'none'}}>
+                <div className="d-flex justify-content-between">
+                    <p className='menu-item'>Chicken Wings</p>
+                    <p className='menu-price'>$15.00</p>
+                    </div>
+                    <div className="d-flex justify-content-between">
+                    <p className='menu-item'>Chicken Wings</p>
+                    <p className='menu-price'>$15.00</p>
+                    </div>
+                    <div className="d-flex justify-content-between">
+                    <p className='menu-item'>Chicken Wings</p>
+                    <p className='menu-price'>$15.00</p>
+                    </div>
+                </div>
+              
+            </div>
+           
+           
+           
+           
+           
+           
+           
+            <div className="col-md-6"></div>
+         </div>
+
+</div>
+        
 
       
 
