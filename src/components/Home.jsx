@@ -5,6 +5,7 @@ import React from 'react'
 import '../css/home.css'
 import '../css/about.css'
 import '../css/menu.css'
+import '../css/chef.css'
 
 // images
 import floral from '../media/floral.png'
@@ -17,6 +18,23 @@ import menu1 from '../media/rare-beef.jpg'
 import menu2 from '../media/salmon.jpg'
 import menu3 from '../media/berries.jpg'
 import menu4 from '../media/another-beef.jpg'
+import table from '../media/table-crowd.jpg'
+import chef3 from '../media/chef-right.jpg'
+import chef2 from '../media/cheffie-v.jpg'
+import chef1 from '../media/women-right.jpg'
+import insta1 from '../media/insta1.jpg'
+import insta2 from '../media/insta2.jpg'
+import insta3 from '../media/insta3.jpg'
+import insta4 from '../media/insta4.jpg'
+import insta5 from '../media/insta5.jpg'
+import insta6 from '../media/insta6.jpg'
+import insta7 from '../media/insta7.jpg'
+import insta8 from '../media/insta8.jpg'
+import insta9 from '../media/insta9.jpg'
+import insta10 from '../media/insta10.jpg'
+import insta11 from '../media/insta11.jpg'
+import insta12 from '../media/insta12.jpg'
+import toast from '../media/couple-toast.jpg'
 
 const Home = () => {
 
@@ -248,7 +266,7 @@ From these citations, I take it and dash the conclusion aimed at will naturally 
 
 </div>
 
-<div className="container">
+<div className="container pb-5">
 <div className="row">
             <div className="col-md-6 menu">
                 <div className="d-flex " onClick={showOrHideDiv1}>
@@ -426,11 +444,148 @@ From these citations, I take it and dash the conclusion aimed at will naturally 
          </div>
 
 </div>
+
+
+
         
 
       
 
    
+
+    </div>
+
+
+    <div className="bg-dark pt-5 pb-5">
+    <div className="container">
+    <div className="d-flex justify-content-center align-items-center">
+        <h2 className='text-white after-menu px-4 mt-5'>Our clients love us and we are truly proud of sharing their feedback.
+Come and visit us. You will not regret the experience</h2>
+        </div>
+        </div>
+    </div>
+
+<img src={table} alt="" className='table-crowd ' />
+
+ <div className='d-flex justify-content-center align-items-center'>
+    <h1 className='table-text'>Enjoy Cheerful moments</h1>
+ </div>
+
+ <div className='about-bg' id='chefs' >
+
+        <div className="container-fluid pt-4"> 
+
+        <div className="d-flex justify-content-center align-items-center pt-5 ">
+        <img src={floral} alt="" className='floral'/>
+                </div >
+
+        <div className="d-flex justify-content-center align-items-center mt-4 ">
+            <div>
+                <div className="d-flex">
+                    <p className='dash'>___________</p>
+                    <p className='simply-the-best mx-2'>Talent & Experience</p>
+                    <p className='dash'>___________</p>
+                </div>
+                
+            </div>
+
+            
+            
+            </div> 
+
+            <div className="d-flex justify-content-center align-items-center">
+           <p className="head-about">KITCHEN SCIENTIST</p>
+                </div> 
+
+                <div className="container mx-lg-5 px-5 pb-5 d-flex justify-content-center">
+             <p className='mx-lg-5 px-lg-5 text-center text-white'>I care not to perform this part of my task methodically. But shall be content to produce the desired impression.
+From these citations, I take it and dash the conclusion aimed at will naturally follow of itself.</p>   
+
+</div>
+
+
+<div className="container-fluid">
+   <div className="row">
+    <div className="col-md-4">
+        <img src={chef1} alt="" className='chef p-2' />
+        <p className='chef-name'>Mary Frampton</p>
+        <p className="chef-des">Soups & Fish</p>
+    </div>
+    <div className="col-md-4">
+        <img src={chef2} alt="" className='chef p-2'  />
+        <p className='chef-name'>Jennifer Queen</p>
+        <p className="chef-des">Oriental Flavors</p>
+    </div>
+    <div className="col-md-4">
+        <img src={chef3} alt="" className='chef p-2' />
+        <p className='chef-name'>James Ocean</p>
+        <p className="chef-des">French Cuisine specialist</p>
+    </div>
+
+    
+   </div>
+
+ 
+
+   </div>
+
+  
+
+            
+
+           
+        </div>
+                   
+
+<hr />
+    <div className="mx-5 px-2 mt-3 pt-5 pb-5 ">
+        <div className="insta-flex">
+          <div className="out">
+            <img src={insta2} alt="" className='insta' />
+          </div>
+          <div className="out">
+            <img src={insta6} alt="" className='insta' />
+          </div>
+          <div className="out">
+            <img src={insta7} alt="" className='insta' />
+          </div>
+          <div className="out">
+            <img src={insta11} alt="" className='insta' />
+          </div>
+          <div className="out">
+            <img src={insta1} alt="" className='insta' />
+          </div>
+          <div className="out">
+            <img src={insta8} alt="" className='insta' />
+          </div>
+          </div>
+        <div className="insta-flex">
+          <div className="out">
+            <img src={insta3} alt="" className='insta' />
+          </div>
+          <div className="out">
+            <img src={insta4} alt="" className='insta' />
+          </div>
+          <div className="out">
+            <img src={insta10} alt="" className='insta' />
+          </div>
+          <div className="out">
+            <img src={insta9} alt="" className='insta' />
+          </div>
+          <div className="out">
+            <img src={insta5} alt="" className='insta' />
+          </div>
+          <div className="out">
+            <img src={insta12} alt="" className='insta' />
+          </div>
+          </div>
+          </div>
+
+
+
+ <div className='pt-5 mt-5' id='book'>
+    <img src={toast} alt="" width={'100%'} height={'700px'} />
+    </div>         
 
     </div>
 

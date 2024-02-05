@@ -42,14 +42,14 @@ const Navbar = () => {
           </AnchorLink>
         </li>
         <li className="nav-item p-2 pt-3 ">
-          <NavLink className="nav-link nav-link-css"  to="#" >
+          <AnchorLink className="nav-link nav-link-css"  href="#chefs" >
             CHEFS
-          </NavLink>
+          </AnchorLink>
         </li>
         <li className="nav-item p-2 pt-3 ">
-          <NavLink className="nav-link nav-link-css"  to="#" >
+          <AnchorLink className="nav-link nav-link-css"  href="#book" >
             BOOK A TABLE
-          </NavLink>
+          </AnchorLink>
         </li>
         <li className="nav-item p-2 pt-3 " style={{marginRight: 15}} >
           <Link className="nav-link nav-link-css"  to="#" >

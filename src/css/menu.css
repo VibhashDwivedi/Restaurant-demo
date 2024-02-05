@@ -106,3 +106,34 @@
     
 }
 
+
+.after-menu{
+   
+    text-align: center;
+    font-size: 32px;
+    font-family: open sans;
+    font-weight: 300;
+}
+
+.table-crowd{
+    width: 100%;
+    max-height: 600px;
+}
+
+.table-text{
+    font-family: dancing script;
+    position: absolute;
+    margin-top: -600px;
+    color: white;
+    font-size: 80px;
+}
+
+@media screen and (max-width: 768px)
+{
+    .table-text{
+        font-size: 60px;
+        margin-top: -200px;
+        text-align: center;
+    }
+    
+}
