@@ -81,7 +81,7 @@ const Home = () => {
                     <img src={RTJ1} alt="" className='rtj1'/>    
                 </div>
                 <div className="col-md-5 bg-dark">
-                    <div className="container-fluid p-5">
+                    <div className="container-fluid p-lg-5">
                     <h4 className='rtj px-5 pt-5 mt-4'>ReasonsTo Join</h4>
                     <p className='num px-5 '>01</p>
                     <p className='px-5 rtj-title'>FRESH FOOD FOR EVERYONE, EVERY DAY</p>
@@ -92,7 +92,7 @@ const Home = () => {
 
              <div className="row">
              <div className="col-md-5 bg-dark">
-                    <div className="container-fluid p-5" style={{textAlign: 'right'}}>
+                    <div className="container-fluid p-lg-5" style={{textAlign: 'right'}}>
                     <h4 className='rtj px-5 pt-5 mt-4'>ReasonsTo Join</h4>
                     <p className='num px-5 '>02</p>
                     <p className='px-5 rtj-title'>FOOD PREPARATION WITH LOVE AND CARE</p>
@@ -110,7 +110,7 @@ const Home = () => {
                     <img src={RTJ3} alt="" className='rtj1'/>    
                 </div>
                 <div className="col-md-5 bg-dark">
-                    <div className="container-fluid p-5">
+                    <div className="container-fluid p-lg-5">
                     <h4 className='rtj px-5 pt-5 mt-4'>ReasonsTo Join</h4>
                     <p className='num px-5 '>03</p>
                     <p className='px-5 rtj-title'>COOKING WITH SCIENCE FOR PERFECT RESULTS</p>
@@ -121,7 +121,7 @@ const Home = () => {
 
                 <div className="row">
              <div className="col-md-5 bg-dark">
-                    <div className="container-fluid p-5" style={{textAlign: 'right'}}>
+                    <div className="container-fluid p-lg-5" style={{textAlign: 'right'}}>
                     <h4 className='rtj px-5 pt-5 mt-4'>ReasonsTo Join</h4>
                     <p className='num px-5 '>04</p>
                     <p className='px-5 rtj-title'>FINISH WITH ALL THE FLAVOR AND STYLE</p>
@@ -166,7 +166,7 @@ const Home = () => {
            <p className="head-about">OUR AWARDED MENU</p>
                 </div> 
              <div className="container mx-lg-5 px-5 pb-5 d-flex justify-content-center">
-             <p className='mx-5 px-5 text-center text-white'>I care not to perform this part of my task methodically. But shall be content to produce the desired impression.
+             <p className='mx-lg-5 px-lg-5 text-center text-white'>I care not to perform this part of my task methodically. But shall be content to produce the desired impression.
 From these citations, I take it and dash the conclusion aimed at will naturally follow of itself.</p>   
 
 </div>
