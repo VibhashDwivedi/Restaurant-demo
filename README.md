@@ -1,8 +1,8 @@
 # The Tasty Lane
 Demo Website for a restaurant
 
-### Design Reference
-[](https://www.pirenko-themes.com/restaurant/#1443522770881-ab0e96be-e8b3)
+## Design Reference
+[click here](https://www.pirenko-themes.com/restaurant/#1443522770881-ab0e96be-e8b3)
 
 ## Live Demo
 [Click here]()
