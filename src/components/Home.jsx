@@ -1,5 +1,5 @@
 import React from 'react'
-import { Fade, fadeInUp } from "react-awesome-reveal";
+import { Fade, Slide ,fadeInUp } from "react-awesome-reveal";
 // css
 
 import '../css/home.css'
@@ -228,12 +228,12 @@ const Home = () => {
 
                 <div className="row">
              <div className="col-md-5 bg-dark">
-             <Fade direction='left' triggerOnce>   <div className="container-fluid p-lg-5" style={{textAlign: 'right'}}>
+             <Slide direction='left' triggerOnce>   <div className="container-fluid p-lg-5" style={{textAlign: 'right'}}>
                     <h4 className='rtj px-5 pt-5 mt-4'>ReasonsTo Join</h4>
                     <p className='num px-5 '>04</p>
                     <p className='px-5 rtj-title'>FINISH WITH ALL THE FLAVOR AND STYLE</p>
                     <p className='rtj-para px-5'>At Tasty Lane, every culinary creation is finished with an artful touch, ensuring it's infused with all the flavor and style that defines our gastronomic excellence.</p>
-                    </div></Fade>
+                    </div></Slide>
                 </div>
                 <div className="col-md-7">
                     <img src={RTJ4} alt="" className='rtj2'/>    
@@ -252,12 +252,12 @@ const Home = () => {
     <div className="about-bg" id='menu'>
     <div className="container-fluid pt-4"> 
     <div className="d-flex justify-content-center align-items-center pt-5 ">
-       <Fade> <img src={floral} alt="" className='floral'/></Fade>
+       <img src={floral} alt="" className='floral'/>
                 </div >
 
         <div className="d-flex justify-content-center align-items-center mt-4 ">
             <div>
-                <Fade>
+                <Fade triggerOnce>
                 <div className="d-flex">
                     <p className='dash'>___________</p>
                     <p className='simply-the-best mx-2'>Variety And Flavor</p>
@@ -271,21 +271,22 @@ const Home = () => {
             </div> 
 
             <div className="d-flex justify-content-center align-items-center">
-           <p className="head-about">OUR AWARDED MENU</p>
+          <Fade triggerOnce><p className="head-about">OUR AWARDED MENU</p></Fade> 
                 </div> 
              <div className="container mx-lg-5 px-5 pb-5 d-flex justify-content-center">
-             <p className='mx-lg-5 px-lg-5 text-center text-white about-text' >Explore the culinary tapestry at Tasty Lane, where our menu unfolds a rich symphony of flavors, each dish a masterpiece of taste and innovation. From enticing starters to indulgent desserts, every item is a carefully curated delight that promises a journey of gastronomic bliss.</p>   
-
+            <Fade triggerOnce> <p className='mx-lg-5 px-lg-5 text-center text-white about-text' >Explore the culinary tapestry at Tasty Lane, where our menu unfolds a rich symphony of flavors, each dish a masterpiece of taste and innovation. From enticing starters to indulgent desserts, every item is a carefully curated delight that promises a journey of gastronomic bliss.</p>   
+            </Fade>
 </div>
 
 <div className="container pb-5">
 <div className="row">
             <div className="col-md-6 menu">
+                
                 <div className="d-flex " onClick={showOrHideDiv1}>
                     <p className='menu-name pt-2 '>SNACKS</p>
                     <p className='dropdown-style ms-auto pt-2' ><i class="fa-solid fa-angle-down" ></i></p>
                 </div>
-                <div id='showOrHide1' className='px-4 pt-2 pb-4' style={{display:'none'}}>
+               <div id='showOrHide1' className='px-4 pt-2 pb-4' style={{display:'none'}}>
                 <div className="d-flex justify-content-between">
                     <p className='menu-item'>Chicken Wings</p>
                     <p className='menu-price'>$15.00</p>
@@ -426,28 +427,28 @@ const Home = () => {
                 <div className="row">
                     <div className="col-md-6" >
 
-                       <div className='outer1'> <img src={menu1} alt="" className='menu-img1'/></div>
+                     <Fade triggerOnce delay={180}>  <div className='outer1'> <img src={menu1} alt="" className='menu-img1'/></div></Fade> 
                            
                             
                         
                     </div>
                     <div className="col-md-6">
-                    <div className='outer2'>
+                    <Fade triggerOnce delay={200}><div className='outer2'>
                         <img src={menu2} alt="" className='menu-img2'/>
-                        </div>
+                        </div></Fade>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-md-6 ">
-                        <div className="outer1">
+                    <Fade triggerOnce delay={220}><div className="outer1">
                         <img src={menu3} alt="" className='menu-img1'/>
-                        </div>
+                        </div></Fade>
                         
                     </div>
                     <div className="col-md-6 ">
-                        <div className="outer2">
+                    <Fade triggerOnce delay={240}><div className="outer2">
                         <img src={menu4} alt="" className='menu-img2'/>
-                        </div>
+                        </div></Fade>
                         
                     </div>
                 </div>
@@ -471,8 +472,8 @@ const Home = () => {
     <div className="bg-dark pt-5 pb-5">
     <div className="container">
     <div className="d-flex justify-content-center align-items-center">
-        <h2 className='text-white after-menu px-4 mt-5 pt-5 mb-5 pb-5'>Our clients love us and we are truly proud of sharing their feedback.
-Come and visit us. You will not regret the experience</h2>
+       <Fade triggerOnce> <h2 className='text-white after-menu px-4 mt-5 pt-5 mb-5 pb-5'>Our clients love us and we are truly proud of sharing their feedback.
+Come and visit us. You will not regret the experience</h2></Fade>
         </div>
         </div>
     </div>
@@ -493,11 +494,11 @@ Come and visit us. You will not regret the experience</h2>
 
         <div className="d-flex justify-content-center align-items-center mt-4 ">
             <div>
-                <div className="d-flex">
+              <Fade triggerOnce>  <div className="d-flex">
                     <p className='dash'>___________</p>
                     <p className='simply-the-best mx-2'>Talent & Experience</p>
                     <p className='dash'>___________</p>
-                </div>
+                </div></Fade>
                 
             </div>
 
@@ -506,29 +507,29 @@ Come and visit us. You will not regret the experience</h2>
             </div> 
 
             <div className="d-flex justify-content-center align-items-center">
-           <p className="head-about">KITCHEN SCIENTIST</p>
+          <Fade triggerOnce> <p className="head-about">KITCHEN SCIENTIST</p></Fade>
                 </div> 
 
                 <div className="container mx-lg-5 px-5 pb-5 d-flex justify-content-center align-items-center">
-             <p className='px-lg-5 mx-lg-5 book-text'>At Tasty Lane, our chefs are culinary maestros, orchestrating a symphony of flavors with passion and precision. Behind each dish is a dedicated team committed to elevating your dining experience to new heights.</p>   
-
+            <Fade triggerOnce> <p className='px-lg-5 mx-lg-5 book-text'>At Tasty Lane, our chefs are culinary maestros, orchestrating a symphony of flavors with passion and precision. Behind each dish is a dedicated team committed to elevating your dining experience to new heights.</p>   
+            </Fade>
 </div>
 
 
 <div className="container-fluid">
    <div className="row">
     <div className="col-md-4">
-        <img src={chef1} alt="" className='chef p-2' />
+    <Fade triggerOnce>   <img src={chef1} alt="" className='chef p-2' /></Fade>
         <p className='chef-name'>Mary Frampton</p>
         <p className="chef-des">Soups & Fish</p>
     </div>
     <div className="col-md-4">
-        <img src={chef2} alt="" className='chef p-2'  />
+    <Fade triggerOnce> <img src={chef2} alt="" className='chef p-2'  /></Fade>
         <p className='chef-name'>Jennifer Queen</p>
         <p className="chef-des">Oriental Flavors</p>
     </div>
     <div className="col-md-4">
-        <img src={chef3} alt="" className='chef p-2' />
+    <Fade triggerOnce>   <img src={chef3} alt="" className='chef p-2' /></Fade>
         <p className='chef-name'>James Ocean</p>
         <p className="chef-des">French Cuisine specialist</p>
     </div>
@@ -549,7 +550,7 @@ Come and visit us. You will not regret the experience</h2>
                    
 
 <hr />
-    <div className="mx-5 px-2 mt-3 pt-5 pb-5 ">
+<Fade triggerOnce>  <div className="mx-5 px-2 mt-3 pt-5 pb-5 ">
         <div className="insta-flex">
           <div className="out">
             <img src={insta2} alt="" className='insta' />
@@ -590,7 +591,7 @@ Come and visit us. You will not regret the experience</h2>
             <img src={insta12} alt="" className='insta' />
           </div>
           </div>
-          </div>
+          </div></Fade>
 
 
 
@@ -605,19 +606,19 @@ Come and visit us. You will not regret the experience</h2>
 
         <div className="d-flex justify-content-center align-items-center mt-4 ">
             <div>
-                <div className="d-flex">
+            <Fade triggerOnce>  <div className="d-flex">
                     <p className='dash'>___________</p>
                     <p className='simply-the-best mx-2'>Instant Confirmation</p>
                     <p className='dash'>___________</p>
-                </div>
+                </div></Fade>
                 
             </div>
             </div>
 
-         <p className="book-head">MAKE YOUR RESERVATION</p> 
-         <p className='book-text px-5 mx-3'>Secure your seat for a delightful culinary experience at Tasty Lane – make your reservation now and embark on a journey of flavors and indulgence.</p> 
-
-    <div className="container mt-lg-5">
+            <Fade triggerOnce>   <p className="book-head">MAKE YOUR RESERVATION</p></Fade> 
+            <Fade triggerOnce>  <p className='book-text px-5 mx-3'>Secure your seat for a delightful culinary experience at Tasty Lane – make your reservation now and embark on a journey of flavors and indulgence.</p> 
+</Fade>
+<Fade triggerOnce delay={200}>  <div className="container mt-lg-5">
     <div className="row ">
         <div className="col-md-4">
             <h4 className='date '>DATE</h4>
@@ -670,7 +671,7 @@ Come and visit us. You will not regret the experience</h2>
         <div className="d-flex justify-content-center align-items-center mt-lg-5 mt-3">
             <button className='book-btn'>BOOK A TABLE</button>
             </div>
-    </div>
+    </div></Fade>
     
 
         

@@ -1,14 +1,14 @@
 import React from 'react';
 
-import fineHeader from '../media/fine-footer.png';
-import { Link, NavLink } from 'react-router-dom';
+
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+import { Fade } from "react-awesome-reveal";
 
 
 const Navbar = () => {
   return (
     <div>
-        <nav className="navbar navbar-expand-lg nav-back pt-0" >
+      <nav className="navbar navbar-expand-lg nav-back pt-0" >
   <div className="container-fluid" >
     <AnchorLink className="navbar-brand" href="#home">
       <p className='ttl'>The Tasty Lane</p>
@@ -25,7 +25,7 @@ const Navbar = () => {
       <span className="navbar-toggler-icon" />
     </button>
     <div className="collapse navbar-collapse " id="navbarSupportedContent">
-      <ul className="navbar-nav ms-auto mb-2 mb-lg-0  nav-border ">
+    <Fade triggerOnce><ul className="navbar-nav ms-auto mb-2 mb-lg-0  nav-border ">
         <li className="nav-item p-2 pt-3 nav-border-remove">
           <AnchorLink className="nav-link  nav-link-css active"  href="#home" >
             HOME
@@ -56,7 +56,7 @@ const Navbar = () => {
             CONTACT US
           </AnchorLink>
         </li>
-      </ul>
+      </ul></Fade>
     
     </div>
   </div>
