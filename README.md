@@ -1,5 +1,6 @@
 # The Tasty Lane
 Demo Website for a restaurant built using React.js
+---
 used `react-awesome-reveal` for animations
 
 ## Design Reference
