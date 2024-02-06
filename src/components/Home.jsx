@@ -1,4 +1,7 @@
 import React from 'react'
+import sr from 'scrollreveal'
+
+
 
 // css
 
@@ -40,6 +43,10 @@ import toast from '../media/couple-toast.jpg'
 
 const Home = () => {
 
+
+   
+
+   
 
     const showOrHideDiv1 = () => {
         var x = document.getElementById("showOrHide1");
@@ -120,7 +127,7 @@ const Home = () => {
             <div className="d-flex justify-content-center align-items-center vh-100">
 
                 <div>
-                <p className="text-white tagline mt-5">A Fancy & Vibrant Dining Experience</p>
+                <p className="text-white tagline mt-5"  >A Fancy & Vibrant Dining Experience</p>
                 <p className="text-white head pt-0 mt-0">THE TASTY LANE</p>
                 </div>
                        
