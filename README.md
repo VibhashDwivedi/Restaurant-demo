@@ -8,7 +8,11 @@ Demo Website for a restaurant built using React.js
 [Click here](https://the-tasty-lane-vibhashdwivedi.vercel.app/)
 
 ## Demo Video
-https://github.com/VibhashDwivedi/The-Tasty-Lane/blob/master/Screenshots/video.mp4
+
+
+https://github.com/VibhashDwivedi/The-Tasty-Lane/assets/94799645/69f0c74f-20f8-458d-96f4-00fce5ae4760
+
+
 
 ## Screenshots
 ![](https://github.com/VibhashDwivedi/The-Tasty-Lane/blob/master/Screenshots/Screenshot%20(216).png)
