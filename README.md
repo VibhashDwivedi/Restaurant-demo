@@ -36,7 +36,7 @@ Demo Website for a restaurant built using React.js
 ---
 ![](https://github.com/VibhashDwivedi/The-Tasty-Lane/blob/master/Screenshots/Screenshot%20(229).png)
 ---
-![](https://github.com/VibhashDwivedi/The-Tasty-Lane/blob/master/Screenshots/Screenshot%20(230).png
+![](https://github.com/VibhashDwivedi/The-Tasty-Lane/blob/master/Screenshots/Screenshot%20(230).png)
 
 
 
