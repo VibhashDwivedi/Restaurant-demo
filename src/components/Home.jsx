@@ -1,5 +1,5 @@
 import React from 'react'
-import { Fade } from "react-awesome-reveal";
+import { Fade, fadeInUp } from "react-awesome-reveal";
 // css
 
 import '../css/home.css'
@@ -125,8 +125,8 @@ const Home = () => {
             <div className="d-flex justify-content-center align-items-center vh-100">
 
                 <div>
-                <Fade><p className="text-white tagline mt-5"  >A Fancy & Vibrant Dining Experience</p></Fade>
-                <p className="text-white head pt-0 mt-0">THE TASTY LANE</p>
+                <Fade direction='up' cascade triggerOnce><p className="text-white tagline mt-5"  >A Fancy & Vibrant Dining Experience</p>
+                <p className="text-white head pt-0 mt-0">THE TASTY LANE</p></Fade>
                 </div>
                        
                     
@@ -134,7 +134,7 @@ const Home = () => {
             </div>
 
             <div className="d-flex justify-content-center">
-                <AnchorLink href="#about" ><i class="fa-solid fa-angle-down home-to-about" ></i></AnchorLink>
+                <Fade direction='up' delay={1000}  triggerOnce><AnchorLink href="#about" ><i class="mb-3 fa-solid fa-angle-down home-to-about" ></i></AnchorLink></Fade>
             </div>
             </div>
 
@@ -150,11 +150,11 @@ const Home = () => {
 
         <div className="d-flex justify-content-center align-items-center mt-4 ">
             <div>
-                <div className="d-flex">
+               <Fade triggerOnce><div className="d-flex">
                     <p className='dash'>___________</p>
                     <p className='simply-the-best mx-2'>Simply The Best</p>
                     <p className='dash'>___________</p>
-                </div>
+                </div></Fade> 
                 
             </div>
 
@@ -163,23 +163,24 @@ const Home = () => {
             </div> 
 
             <div className="d-flex justify-content-center align-items-center">
-           <p className="head-about">WELCOME TO THE TASTY LANE</p>
+          <Fade triggerOnce><p className="head-about">WELCOME TO THE TASTY LANE</p></Fade> 
                 </div> 
 
             <div className="row container-fluid">
                 <div className="col-md-6 px-lg-4">
+                <Fade direction='left' triggerOnce ><div>
                     <span className='the'>T</span>
-                    <span className='about-text'>he Tasty Lane, an epicurean haven where culinary delight takes center stage. Our carefully crafted menu invites you to embark on a gastronomic adventure, with each section designed to showcase the diverse and exquisite flavors that define our culinary identity. Begin your journey with our Tasty Starters, an enticing array of appetizers that serve as a prelude to the extraordinary dining experience ahead. From crispy calamari to artisanal bruschettas, these starters are a testament to our commitment to elevating the art of appetizing beginnings.</span>
+                      <span className='about-text'>he Tasty Lane, an epicurean haven where culinary delight takes center stage. Our carefully crafted menu invites you to embark on a gastronomic adventure, with each section designed to showcase the diverse and exquisite flavors that define our culinary identity. Begin your journey with our Tasty Starters, an enticing array of appetizers that serve as a prelude to the extraordinary dining experience ahead. From crispy calamari to artisanal bruschettas, these starters are a testament to our commitment to elevating the art of appetizing beginnings.</span>
                      <span className="about-text">As you navigate through Tasty Lane, the Flavorful Main Courses beckon, presenting a symphony of tastes that cater to every palate. Our chefs, inspired by global influences, have meticulously curated a selection that spans from comforting classics to innovative culinary masterpieces. Whether you savor the succulence of our perfectly grilled steaks or revel in the aromatic spices of our signature dishes, each main course embodies the essence of Tasty Lane—where culinary expertise meets a passion for delivering an unforgettable dining experience.</span>
-               </div>
-               <div className="col-md-6 px-lg-4 mt-4">
+                     </div></Fade></div>
+               <div className="col-md-6 px-lg-4 mt-4"><Fade direction='right' triggerOnce>
                 <span className="about-text">Whether you savor the succulence of our perfectly grilled steaks or revel in the aromatic spices of our signature dishes, each main course embodies the essence of Tasty Lane—where culinary expertise meets a passion for delivering an unforgettable dining experience. As the journey unfolds, explore our Savory Specialties, where the chef's recommendations shine a spotlight on the distinctive and unparalleled flavors that define Tasty Lane's culinary prowess. Indulge in our Sweet Endings, a collection of desserts that serves as a grand finale to your dining expedition. From rich chocolate decadence to refreshing fruit medleys, our desserts promise to leave a lasting impression, ensuring that your visit to Tasty Lane is nothing short of a culinary odyssey. Join us on this epicurean voyage, and let the flavors of Tasty Lane captivate your senses, making every dining moment a celebration of taste and culinary excellence.</span>
-               </div>
+                </Fade> </div>
                 </div>  
 
 
              <div className='d-flex justify-content-center align-items-center pt-5 pb-5'>
-                <img src={sign} alt="" className='sign'/>
+              <Fade triggerOnce>  <img src={sign} alt="" className='sign'/></Fade>
                 </div> 
 
              <div className="row">
@@ -187,23 +188,23 @@ const Home = () => {
                     <img src={RTJ1} alt="" className='rtj1'/>    
                 </div>
                 <div className="col-md-5 bg-dark">
-                    <div className="container-fluid p-lg-5">
+                   <Fade direction='right' triggerOnce><div className="container-fluid p-lg-5">
                     <h4 className='rtj px-5 pt-5 mt-4'>ReasonsTo Join</h4>
                     <p className='num px-5 '>01</p>
                     <p className='px-5 rtj-title'>FRESH FOOD FOR EVERYONE, EVERY DAY</p>
                     <p className='rtj-para px-5'>At Tasty Lane, we serve fresh, flavorful food for everyone, every day, ensuring a delightful dining experience that caters to all palates.</p>
-                    </div>
+                    </div></Fade> 
                 </div>
                 </div>  
 
              <div className="row">
              <div className="col-md-5 bg-dark pb-sm-2">
-                    <div className="container-fluid p-lg-5" style={{textAlign: 'right'}}>
+                  <Fade direction='left' triggerOnce>  <div className="container-fluid p-lg-5" style={{textAlign: 'right'}}>
                     <h4 className='rtj px-5 pt-5 mt-4'>ReasonsTo Join</h4>
                     <p className='num px-5 '>02</p>
                     <p className='px-5 rtj-title'>FOOD PREPARATION WITH LOVE AND CARE</p>
                     <p className='rtj-para px-5'>In our kitchen at Tasty Lane, every dish is crafted with love and care, transforming each bite into a flavorful expression of culinary passion.</p>
-                    </div>
+                    </div></Fade>
                 </div>
                 <div className="col-md-7">
                     <img src={RTJ2} alt="" className='rtj2'/>    
@@ -216,23 +217,23 @@ const Home = () => {
                     <img src={RTJ3} alt="" className='rtj1'/>    
                 </div>
                 <div className="col-md-5 bg-dark">
-                    <div className="container-fluid p-lg-5">
+                <Fade direction='right' triggerOnce>    <div className="container-fluid p-lg-5">
                     <h4 className='rtj px-5 pt-5 mt-4'>ReasonsTo Join</h4>
                     <p className='num px-5 '>03</p>
                     <p className='px-5 rtj-title'>COOKING WITH SCIENCE FOR PERFECT RESULTS</p>
                     <p className='rtj-para px-5'>At Tasty Lane, we marry culinary artistry with scientific precision, ensuring each dish is a masterpiece of flavor and perfection.</p>
-                    </div>
+                    </div></Fade>
                 </div>
                 </div>  
 
                 <div className="row">
              <div className="col-md-5 bg-dark">
-                    <div className="container-fluid p-lg-5" style={{textAlign: 'right'}}>
+             <Fade direction='left' triggerOnce>   <div className="container-fluid p-lg-5" style={{textAlign: 'right'}}>
                     <h4 className='rtj px-5 pt-5 mt-4'>ReasonsTo Join</h4>
                     <p className='num px-5 '>04</p>
                     <p className='px-5 rtj-title'>FINISH WITH ALL THE FLAVOR AND STYLE</p>
                     <p className='rtj-para px-5'>At Tasty Lane, every culinary creation is finished with an artful touch, ensuring it's infused with all the flavor and style that defines our gastronomic excellence.</p>
-                    </div>
+                    </div></Fade>
                 </div>
                 <div className="col-md-7">
                     <img src={RTJ4} alt="" className='rtj2'/>    
@@ -251,16 +252,17 @@ const Home = () => {
     <div className="about-bg" id='menu'>
     <div className="container-fluid pt-4"> 
     <div className="d-flex justify-content-center align-items-center pt-5 ">
-        <img src={floral} alt="" className='floral'/>
+       <Fade> <img src={floral} alt="" className='floral'/></Fade>
                 </div >
 
         <div className="d-flex justify-content-center align-items-center mt-4 ">
             <div>
+                <Fade>
                 <div className="d-flex">
                     <p className='dash'>___________</p>
                     <p className='simply-the-best mx-2'>Variety And Flavor</p>
                     <p className='dash'>___________</p>
-                </div>
+                </div></Fade>
                 
             </div>
 
