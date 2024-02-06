@@ -67,10 +67,6 @@
   border: none;
 }
 
-.fine-footer{
-  height: 50px;
-  width: 195px;
-}
 
 .nav-back{
   background-color: rgba(0, 0, 0, 0.589);
@@ -90,7 +86,7 @@
 
 .nav-border :hover
 {
-  border-top: 5px solid white ;
+  border-top: 5px solid #c19556 ;
   border-radius: 0px !important;
   padding-bottom: 0px !important;
   margin-bottom: 0px !important;
@@ -109,13 +105,9 @@
 
 }
 
-.nav-item :active
-{
-  border-top: none !important;
-  color: #C19556 !important;
-  
 
-}
+
+
 
 
 

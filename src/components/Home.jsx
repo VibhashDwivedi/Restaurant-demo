@@ -460,7 +460,7 @@ const Home = () => {
     <div className="bg-dark pt-5 pb-5">
     <div className="container">
     <div className="d-flex justify-content-center align-items-center">
-        <h2 className='text-white after-menu px-4 mt-5'>Our clients love us and we are truly proud of sharing their feedback.
+        <h2 className='text-white after-menu px-4 mt-5 pt-5 mb-5 pb-5'>Our clients love us and we are truly proud of sharing their feedback.
 Come and visit us. You will not regret the experience</h2>
         </div>
         </div>

@@ -27,12 +27,12 @@ const Navbar = () => {
     <div className="collapse navbar-collapse " id="navbarSupportedContent">
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0  nav-border ">
         <li className="nav-item p-2 pt-3 nav-border-remove">
-          <AnchorLink className="nav-link  nav-link-css"  href="#home" >
+          <AnchorLink className="nav-link  nav-link-css active"  href="#home" >
             HOME
           </AnchorLink>
         </li>
         <li className="nav-item p-2 pt-3 ">
-          <AnchorLink className="nav-link nav-link-css"  href="#about" >
+          <AnchorLink className="nav-link nav-link-css " activeStyle={{ color:'#5754a8' }}  href="#about" >
             ABOUT
           </AnchorLink>
         </li>
