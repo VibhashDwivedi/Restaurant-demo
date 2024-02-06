@@ -2,7 +2,6 @@ import React from 'react'
 import sr from 'scrollreveal'
 
 
-
 // css
 
 import '../css/home.css'
@@ -40,6 +39,7 @@ import insta10 from '../media/insta10.jpg'
 import insta11 from '../media/insta11.jpg'
 import insta12 from '../media/insta12.jpg'
 import toast from '../media/couple-toast.jpg'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Home = () => {
 
@@ -133,6 +133,10 @@ const Home = () => {
                        
                     
                     
+            </div>
+
+            <div className="d-flex justify-content-center">
+                <AnchorLink href="#about" ><i class="fa-solid fa-angle-down home-to-about" ></i></AnchorLink>
             </div>
             </div>
 
