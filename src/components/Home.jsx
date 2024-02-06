@@ -680,9 +680,9 @@ From these citations, I take it and dash the conclusion aimed at will naturally 
     
     <div className="d-flex justify-content-center align-items-center mt-5 pt-4 mb-1">
     
-        <p className='num'>+123 785 952 354 .</p>
+        <p className='num2'>+123 785 952 354 .</p>
         <p className='mail'>hello@ttl.com</p>
-        <p className='num'>. www.thetastylane.com</p>
+        <p className='num2'>. www.thetastylane.com</p>
         </div>
 
 

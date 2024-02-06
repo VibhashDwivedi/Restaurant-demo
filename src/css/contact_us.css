@@ -24,7 +24,7 @@
     text-align: center;
 }
 
-.num{
+.num2{
     color: #efefef;
     font-family: open sans;
     font-size: 14px;
@@ -35,9 +35,15 @@
     color: #c19556;
     font-family: open sans;
     font-size: 14px;
-    margin-top: -38px;
+   
 }
 
+@media screen and (max-width : 768px) {
+    .num2, .mail{
+        font-size: 12px;
+    }
+    
+}
 .socials{
     color: #efefef;
     font-size: 20px;
