@@ -10,9 +10,9 @@ const Navbar = () => {
     <div>
         <nav className="navbar navbar-expand-lg nav-back pt-0" >
   <div className="container-fluid" >
-    <Link className="navbar-brand" to="">
-      <img src={fineHeader} alt="" className='fine-footer mx-lg-5 px-1 pt-2' />
-    </Link>
+    <AnchorLink className="navbar-brand" href="#home">
+      <p className='ttl'>The Tasty Lane</p>
+    </AnchorLink>
     <button
       className="navbar-toggler"
       type="button"

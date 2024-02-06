@@ -182,7 +182,7 @@ const Home = () => {
                     <h4 className='rtj px-5 pt-5 mt-4'>ReasonsTo Join</h4>
                     <p className='num px-5 '>01</p>
                     <p className='px-5 rtj-title'>FRESH FOOD FOR EVERYONE, EVERY DAY</p>
-                    <p className='rtj-para px-5'>At the next halt Hooja the Sly One managed to find enough slack chain to permit him to worm himself back quite close to Dian. We were all standing, and as he edged near the girl.</p>
+                    <p className='rtj-para px-5'>At Tasty Lane, we serve fresh, flavorful food for everyone, every day, ensuring a delightful dining experience that caters to all palates.</p>
                     </div>
                 </div>
                 </div>  
@@ -193,7 +193,7 @@ const Home = () => {
                     <h4 className='rtj px-5 pt-5 mt-4'>ReasonsTo Join</h4>
                     <p className='num px-5 '>02</p>
                     <p className='px-5 rtj-title'>FOOD PREPARATION WITH LOVE AND CARE</p>
-                    <p className='rtj-para px-5'>At the next halt Hooja the Sly One managed to find enough slack chain to permit him to worm himself back quite close to Dian. We were all standing, and as he edged near the girl.</p>
+                    <p className='rtj-para px-5'>In our kitchen at Tasty Lane, every dish is crafted with love and care, transforming each bite into a flavorful expression of culinary passion.</p>
                     </div>
                 </div>
                 <div className="col-md-7">
@@ -211,7 +211,7 @@ const Home = () => {
                     <h4 className='rtj px-5 pt-5 mt-4'>ReasonsTo Join</h4>
                     <p className='num px-5 '>03</p>
                     <p className='px-5 rtj-title'>COOKING WITH SCIENCE FOR PERFECT RESULTS</p>
-                    <p className='rtj-para px-5'>At the next halt Hooja the Sly One managed to find enough slack chain to permit him to worm himself back quite close to Dian. We were all standing, and as he edged near the girl.</p>
+                    <p className='rtj-para px-5'>At Tasty Lane, we marry culinary artistry with scientific precision, ensuring each dish is a masterpiece of flavor and perfection.</p>
                     </div>
                 </div>
                 </div>  
@@ -222,7 +222,7 @@ const Home = () => {
                     <h4 className='rtj px-5 pt-5 mt-4'>ReasonsTo Join</h4>
                     <p className='num px-5 '>04</p>
                     <p className='px-5 rtj-title'>FINISH WITH ALL THE FLAVOR AND STYLE</p>
-                    <p className='rtj-para px-5'>At the next halt Hooja the Sly One managed to find enough slack chain to permit him to worm himself back quite close to Dian. We were all standing, and as he edged near the girl.</p>
+                    <p className='rtj-para px-5'>At Tasty Lane, every culinary creation is finished with an artful touch, ensuring it's infused with all the flavor and style that defines our gastronomic excellence.</p>
                     </div>
                 </div>
                 <div className="col-md-7">
@@ -263,8 +263,7 @@ const Home = () => {
            <p className="head-about">OUR AWARDED MENU</p>
                 </div> 
              <div className="container mx-lg-5 px-5 pb-5 d-flex justify-content-center">
-             <p className='mx-lg-5 px-lg-5 text-center text-white'>I care not to perform this part of my task methodically. But shall be content to produce the desired impression.
-From these citations, I take it and dash the conclusion aimed at will naturally follow of itself.</p>   
+             <p className='mx-lg-5 px-lg-5 text-center text-white about-text' >Explore the culinary tapestry at Tasty Lane, where our menu unfolds a rich symphony of flavors, each dish a masterpiece of taste and innovation. From enticing starters to indulgent desserts, every item is a carefully curated delight that promises a journey of gastronomic bliss.</p>   
 
 </div>
 
@@ -499,9 +498,8 @@ Come and visit us. You will not regret the experience</h2>
            <p className="head-about">KITCHEN SCIENTIST</p>
                 </div> 
 
-                <div className="container mx-lg-5 px-5 pb-5 d-flex justify-content-center">
-             <p className='mx-lg-5 px-lg-5 text-center text-white'>I care not to perform this part of my task methodically. But shall be content to produce the desired impression.
-From these citations, I take it and dash the conclusion aimed at will naturally follow of itself.</p>   
+                <div className="container mx-lg-5 px-5 pb-5 d-flex justify-content-center align-items-center">
+             <p className='px-lg-5 mx-lg-5 book-text'>At Tasty Lane, our chefs are culinary maestros, orchestrating a symphony of flavors with passion and precision. Behind each dish is a dedicated team committed to elevating your dining experience to new heights.</p>   
 
 </div>
 
@@ -606,8 +604,7 @@ From these citations, I take it and dash the conclusion aimed at will naturally 
             </div>
 
          <p className="book-head">MAKE YOUR RESERVATION</p> 
-         <p className='book-text px-5 mx-3'>I care not to perform this part of my task methodically. But shall be content to produce the desired impression.
-From these citations, I take it and dash the conclusion aimed at will naturally follow of itself.</p> 
+         <p className='book-text px-5 mx-3'>Secure your seat for a delightful culinary experience at Tasty Lane – make your reservation now and embark on a journey of flavors and indulgence.</p> 
 
     <div className="container mt-lg-5">
     <div className="row ">

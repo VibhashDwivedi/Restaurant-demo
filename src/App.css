@@ -18,6 +18,15 @@
   z-index: 100;
 }
 
+.ttl{
+  font-family: 'Dancing Script', cursive;
+  color: #e7b269;
+  font-size: 44px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+
 @media screen and (max-width: 768px) {
   .navbar-nav{
     background-color: rgba(0, 0, 0, 0.973);
@@ -29,6 +38,14 @@
     transition: all 0.5s;
     
     
+  }
+
+  .ttl{
+    font-family: 'Dancing Script', cursive;
+    color: #e7b269;
+    font-size: 32px;
+    margin-top: 5px;
+    margin-left: 0px;
   }
 
  
