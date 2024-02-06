@@ -1,7 +1,5 @@
 import React from 'react'
-import sr from 'scrollreveal'
-
-
+import { Fade } from "react-awesome-reveal";
 // css
 
 import '../css/home.css'
@@ -127,7 +125,7 @@ const Home = () => {
             <div className="d-flex justify-content-center align-items-center vh-100">
 
                 <div>
-                <p className="text-white tagline mt-5"  >A Fancy & Vibrant Dining Experience</p>
+                <Fade><p className="text-white tagline mt-5"  >A Fancy & Vibrant Dining Experience</p></Fade>
                 <p className="text-white head pt-0 mt-0">THE TASTY LANE</p>
                 </div>
                        
