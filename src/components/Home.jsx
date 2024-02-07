@@ -713,7 +713,7 @@ Come and visit us. You will not regret the experience</h2></Fade>
         </div>        
 
         <div className="d-flex justify-content-center align-items-center mt-3">
-            <p className='text-info'>Built with <i class="fa-regular fa-heart" style={{color:'red'}}></i> by Vibhash Dwivedi <a href="https://github.com/VibhashDwivedi"><i class="fa-brands fa-github"></i></a></p>
+            <p className='text-info'>Built with <i class="fa-regular fa-heart" style={{color:'red'}}></i> by Vibhash Dwivedi <a href="https://github.com/VibhashDwivedi/The-Tasty-Lane"><i class="fa-brands fa-github"></i></a></p>
             </div>
         
            
