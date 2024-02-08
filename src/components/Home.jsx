@@ -1,5 +1,5 @@
 import React from 'react'
-import { Fade, Slide ,fadeInUp } from "react-awesome-reveal";
+import { Fade, Slide } from "react-awesome-reveal";
 // css
 
 import '../css/home.css'
@@ -519,17 +519,43 @@ Come and visit us. You will not regret the experience</h2></Fade>
 <div className="container-fluid">
    <div className="row">
     <div className="col-md-4">
-    <Fade triggerOnce>   <img src={chef1} alt="" className='chef p-2' /></Fade>
+    <Fade triggerOnce> 
+    <div className='chef-container'>  <img src={chef1} alt="" className='chef p-2' />
+    <div class="overlay m-3">
+    <div class="text-demo">Good Mood</div>
+    <p className='text-demo2'>Infusing every dish with a dash of good mood, our chef transforms meals into moments of joy and culinary delight.</p>
+  </div>  
+    </div>
+    </Fade>
         <p className='chef-name'>Mary Frampton</p>
         <p className="chef-des">Soups & Fish</p>
     </div>
     <div className="col-md-4">
-    <Fade triggerOnce> <img src={chef2} alt="" className='chef p-2'  /></Fade>
+    <Fade triggerOnce> 
+    <div className='chef-container'>
+        <img src={chef2} alt="" className='chef p-2'  />
+        <div class="overlay m-3">
+    <div class="text-demo">World Traveller</div>
+    <p className='text-demo2'>Embark on a global culinary odyssey with our world-traveling chef, bringing flavors from around the world to your plate.</p>
+  </div>  
+        </div>
+        
+        </Fade>
+
         <p className='chef-name'>Jennifer Queen</p>
         <p className="chef-des">Oriental Flavors</p>
     </div>
     <div className="col-md-4">
-    <Fade triggerOnce>   <img src={chef3} alt="" className='chef p-2' /></Fade>
+    <Fade triggerOnce>  
+    <div className='chef-container'>
+        <img src={chef3} alt="" className='chef p-2' />
+        <div class="overlay m-3">
+    <div class="text-demo">Loves Music</div>
+    <p className='text-demo2'>Infusing every creation with a touch of passion, our chef loves music and turns meals into a flavorful melody.</p>
+  </div>             
+    </div>
+            
+     </Fade>
         <p className='chef-name'>James Ocean</p>
         <p className="chef-des">French Cuisine specialist</p>
     </div>
